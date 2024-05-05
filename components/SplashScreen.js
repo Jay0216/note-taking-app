@@ -1,9 +1,13 @@
+
 import { View, Text, Button, StyleSheet } from "react-native"
 
 
 
 
-const Splash = () => {
+
+
+
+const Splash = ({navigation}) => {
 
     
 
@@ -14,7 +18,7 @@ const Splash = () => {
 
             <Text>Welcome To the APP.</Text>
 
-            <Button onPress={get_started} title="Get Started"></Button>
+            <Button onPress={() => navigation.navigate("Home")} title="Get Started"></Button>
             
         </View>
     )

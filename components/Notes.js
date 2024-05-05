@@ -10,7 +10,7 @@ const Notes = () => {
         <View style={styles.container}>
 
             <Text>This is The Note Taking.</Text>
-            <Text>it's Working</Text>
+            
         </View>
     )
 }

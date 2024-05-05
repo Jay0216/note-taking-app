@@ -1,4 +1,8 @@
 import { View, Text, StyleSheet, Button } from "react-native";
+import Notes from "./Notes";
+
+
+
 
 const Home = () => {
 
@@ -10,14 +14,14 @@ const Home = () => {
      <View style={styles.container}>
 
 
-      <Text>Hello Users it's React Native</Text>
+      
       <Text>Note Taking App</Text>
 
       <Button title='Click'></Button>
 
       
       
-      <Home/>
+      
 
       <Notes/>
 
